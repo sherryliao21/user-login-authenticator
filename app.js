@@ -6,10 +6,10 @@ mongoose.connect('mongodb://localhost/login-authentication', { useNewUrlParser: 
 const db = mongoose.connection
 
 db.on('error', () => {
-  console.log('error')
+  console.log('MongoDB error!')
 })
 db.once('open', () => {
-  console.log('Mongoose connected!')
+  console.log('MongoDB connected!')
 })
 
 app.engine('handlebars', exphbs({ defaultLayout: 'main' }))
