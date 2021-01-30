@@ -27,7 +27,7 @@ app.get('/user_authentication', (req, res) => {
     .lean()
     .then(user =>
       res.render('welcome', { userName: user[0].firstName }))
-    .catch(error => res.redirect('/'))
+    .catch(error => res.render('error'))
 })
 
 app.listen(3000, (req, res) => {
