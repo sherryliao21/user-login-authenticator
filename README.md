@@ -1,5 +1,5 @@
 # User Login Authenticator
-[Imgur](https://i.imgur.com/ewsXNDz.png)
+![Imgur](https://i.imgur.com/ewsXNDz.png)
 
 ## Features
 1. Users are able to type in their email and password to login.
