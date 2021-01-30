@@ -15,14 +15,26 @@
 
 ## Installing
 1. Clone this project to your local machine with terminal
-```git clone https://github.com/sherryliao21/user-login-authenticator.git```
+```
+git clone https://github.com/sherryliao21/user-login-authenticator.git
+```
 2. Find the folder of this project
-```cd login_authentication```
+```
+cd login_authentication
+```
 3. Install npm add-ons
-```npm install```
+```
+npm install
+```
 4. Run seeder
-```npm run seed```
+```
+npm run seed
+```
 5. Run project
-```npm run dev```
+```
+npm run dev
+```
 6. Open your browser and enter path
-```localhost:3000```
+```
+localhost:3000
+```
